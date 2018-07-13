@@ -1,0 +1,25 @@
+{
+  "name": "daily-time-range",
+  "version": "1.0.0",
+  "description": "Check to see if a date (usually now) falls within a daily time range",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "luxon": "^1.3.1"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tap": "^12.0.1",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "standard && ./node_modules/.bin/tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanramage/daily-time-range.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ryanramage/daily-time-range/issues"
+  },
+  "homepage": "http://github.com/ryanramage/daily-time-range"
+}
